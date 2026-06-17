@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <title>🏏 AI Cricket ChatBot (Tamil & English)</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-matrix@1.0.0"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #121212;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            transition: background 0.3s, color 0.3s;
+        }
+        body.light-mode {
+            background: #f0f2f5;
+            color: #333;
+        }
+        #chatbox {
+            max-width: 600px;
+            width: 100%;
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 15px;
+            background: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            scrollbar-width: thin;
+            scrollbar-color: #555 transparent;
+        }
+        body.light-mode #chatbox {
+            background: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        #chatbox:hover {
+            scrollbar-color: #888 transparent;
+        }
+        .message {
+            padding: 12px 16px;
+            border-radius: 10px;
+            max-width: 75%;
+            word-wrap: break-word;
+            animation: fadeIn 0.3s ease-in;
+            position: relative;
+        }
+        .bot {
+            align-self: flex-start;
+            background: #333;
+            color: white;
+        }
+        body.light-mode .bot {
+            background: #e0e0e0;
+            color: #333;
+        }
+        .user {
+            align-self: flex-end;
+            background: #0078ff;
+            color: white;
+        }
+        .message-timestamp {
+            font-size: 0.7em;
+            color: #aaa;
+            margin-top: 5px;
+            text-align: right;
+        }
+        body.light-mode .message-timestamp {
+            color: #666;
+        }
+        .typing-indicator {
+            display: none;
+            align-self: flex-start;
+            padding: 10px;
+            background: #333;
+            border-radius: 10px;
+            color: white;
+        }
+        body.light-mode .typing-indicator {
+            background: #e0e0e0;
+            color: #333;
+        }
+        .typing-indicator span {
+            animation: blink 1s infinite;
+            display: inline-block;
+        }
+        .typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+        .typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+        .actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 5px;
+            align-self: flex-start;
+        }
+        .actions button {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .actions button:hover {
+            transform: scale(1.2);
+        }
+        .actions button img {
+            width: 24px;
+            height: 24px;
+        }
+        #inputContainer {
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            gap: 10px;
+            padding: 10px;
+            background: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        body.light-mode #inputContainer {
+            background: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        #userInput {
+            flex: 1;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            background: #222;
+            color: white;
+            transition: background 0.3s;
+        }
+        body.light-mode #userInput {
+            background: #f0f0f0;
+            color: #333;
+        }
+        #userInput:focus {
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 120, 255, 0.5);
+        }
+        .send-btn, .mic-btn {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s, background 0.3s;
+        }
+        .send-btn:hover, .mic-btn:hover {
+            transform: scale(1.1);
+            background: rgba(255, 255, 255, 0.1);
+        }
+        .send-btn img, .mic-btn img {
+            width: 32px;
+            height: 32px;
+        }
+        #themeToggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 24px;
+        }
+        audio {
+            margin-top: 5px;
+            width: 100%;
+        }
+        .download-btn {
+            margin-top: 10px;
+            padding: 8px 16px;
+            background: #0078ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .download-btn:hover {
+            background: #0056b3;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <button id="themeToggle" onclick="toggleTheme()">🌙</button>
+    <h1>🏏 AI Cricket ChatBot</h1>
+    <div id="inputContainer">
+        <input type="text" id="userInput" placeholder="Type in Tamil or English...">
+        <button class="send-btn" onclick="sendMessage()">
+            <img src="send.png" alt="Send">
+        </button>
+        <button class="mic-btn" id="speakBtn" onclick="toggleSpeechRecognition()">
+            <img src="mic.png" alt="Microphone">
+        </button>
+    </div>
+    <div id="chatbox">
+        <div class="typing-indicator" id="typingIndicator">
+            <span>.</span><span>.</span><span>.</span>
+        </div>
+    </div>
+    <canvas id="chartIPL" style="max-width: 600px; height: 400px; display: none;"></canvas>
+    <canvas id="chartWinLoss" style="max-width: 600px; height: 400px; display: none;"></canvas>
+    <canvas id="chartHeatmap" style="max-width: 600px; height: 400px; display: none;"></canvas>
+    <canvas id="chartPie" style="max-width: 600px; height: 400px; display: none;"></canvas>
+
+    <script>
+        let recognition;
+        let isListening = false;
+        let charts = {};
+
+        // Initialize SpeechRecognition
+        function initializeSpeechRecognition() {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            if (SpeechRecognition) {
+                recognition = new SpeechRecognition();
+                recognition.lang = 'en-US';
+                recognition.continuous = false;
+                recognition.interimResults = false;
+                recognition.onstart = () => {
+                    console.log('Voice recognition started.');
+                    document.getElementById('speakBtn').querySelector('img').src = 'mic.png';
+                };
+                recognition.onresult = (event) => {
+                    const transcript = event.results[0][0].transcript;
+                    document.getElementById('userInput').value = transcript;
+                    sendMessage();
+                };
+                recognition.onerror = (event) => {
+                    console.error('Voice recognition error', event);
+                    alert('Error occurred during speech recognition. Please try again.');
+                };
+                recognition.onend = () => {
+                    isListening = false;
+                    document.getElementById('speakBtn').querySelector('img').src = 'mic.png';
+                };
+            } else {
+                alert('Speech Recognition is not supported in this browser.');
+            }
+        }
+
+        // Toggle Speech Recognition
+        function toggleSpeechRecognition() {
+            if (isListening) {
+                recognition.stop();
+            } else {
+                if (!recognition) {
+                    initializeSpeechRecognition();
+                }
+                recognition.lang = document.getElementById('userInput').value.match(/[\u0B80-\u0BFF]/) ? 'ta-IN' : 'en-US';
+                recognition.start();
+                document.getElementById('speakBtn').querySelector('img').src = 'mic.png';
+                isListening = true;
+            }
+        }
+
+        // Theme Toggle
+        function toggleTheme() {
+            document.body.classList.toggle('light-mode');
+            const themeToggle = document.getElementById('themeToggle');
+            themeToggle.textContent = document.body.classList.contains('light-mode') ? '🌞' : '🌙';
+        }
+
+        // Function to speak the response
+        function speakResponse(text, lang = 'en') {
+            fetch('http://localhost:8000/tts', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ query: text, lang: lang })
+            }).then(response => response.json())
+              .then(data => console.log(data))
+              .catch(error => console.error('TTS error:', error));
+        }
+
+        // Function to simulate typing effect
+        function typeMessage(element, text, callback) {
+            let index = 0;
+            element.textContent = '';
+            const typingSpeed = 20; // ms per character
+            function type() {
+                if (index < text.length) {
+                    element.textContent += text.charAt(index);
+                    index++;
+                    setTimeout(type, typingSpeed);
+                } else {
+                    callback();
+                }
+            }
+            type();
+        }
+
+        // Function to download chart
+        function downloadChart(canvasId, filename) {
+            const canvas = document.getElementById(canvasId);
+            const link = document.createElement('a');
+            link.download = filename;
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        }
+
+        // Function to send a message
+        async function sendMessage() {
+            const userInput = document.getElementById('userInput').value;
+            if (!userInput.trim()) return;
+            const chatbox = document.getElementById('chatbox');
+            const typingIndicator = document.getElementById('typingIndicator');
+
+            // Hide all charts
+            ['chartIPL', 'chartWinLoss', 'chartHeatmap', 'chartPie'].forEach(id => {
+                document.getElementById(id).style.display = 'none';
+                if (charts[id]) {
+                    charts[id].destroy();
+                    delete charts[id];
+                }
+            });
+
+            // Display user input
+            const userMessage = document.createElement('div');
+            userMessage.classList.add('message', 'user');
+            userMessage.textContent = userInput;
+            const userTimestamp = document.createElement('div');
+            userTimestamp.classList.add('message-timestamp');
+            userTimestamp.textContent = new Date().toLocaleTimeString();
+            userMessage.appendChild(userTimestamp);
+            chatbox.appendChild(userMessage);
+
+            // Show typing indicator
+            typingIndicator.style.display = 'flex';
+
+            try {
+                // Send query to backend
+                const isTamilInput = /[\u0B80-\u0BFF]/.test(userInput);
+                const response = await fetch('http://localhost:8000/query', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ query: userInput, lang: isTamilInput ? 'ta' : 'en' })
+                });
+                if (!response.ok) throw new Error('Network response was not ok');
+                const data = await response.json();
+
+                // Hide typing indicator
+                typingIndicator.style.display = 'none';
+
+                const botMessage = document.createElement('div');
+                botMessage.classList.add('message', 'bot');
+
+                // Format response
+                let answerText = '';
+                if (data.response.match_summary !== "No match data found in database.") {
+                    answerText += `Match Summary: ${data.response.match_summary.winner} won at ${data.response.match_summary.venue}. `;
+                    answerText += `Runs: ${JSON.stringify(data.response.match_summary.runs)}. `;
+                    answerText += `Wickets: ${JSON.stringify(data.response.match_summary.wickets)}. `;
+                    answerText += `Top Performers: ${data.response.match_summary.top_performers.map(p => `${p.name} (${p.runs} runs)`).join(', ')}. `;
+                }
+                if (data.response.live_data) {
+                    answerText += `\nLive Data: ${typeof data.response.live_data === 'object' ? JSON.stringify(data.response.live_data) : data.response.live_data}`;
+                }
+                if (data.response.news) {
+                    answerText += `\nNews: ${data.response.news}`;
+                }
+                if (data.response.player_info) {
+                    answerText += `\nPlayer Info: ${data.response.player_info.substring(0, 200)}...`;
+                }
+                if (data.response.team_info) {
+                    answerText += `\nTeam Info: ${data.response.team_info.substring(0, 200)}...`;
+                }
+                answerText = answerText.trim() || 'No relevant data found.';
+
+                // Add bot message with typing effect
+                chatbox.appendChild(botMessage);
+                typeMessage(botMessage, answerText, () => {
+                    const botTimestamp = document.createElement('div');
+                    botTimestamp.classList.add('message-timestamp');
+                    botTimestamp.textContent = new Date().toLocaleTimeString();
+                    botMessage.appendChild(botTimestamp);
+
+                    // Speak response
+                    if (!data.response.visualization) {
+                        speakResponse(answerText, isTamilInput ? 'ta' : 'en');
+                    }
+
+                    // Handle visualization
+                    if (data.response.visualization) {
+                        let downloadBtn;
+                        if (data.response.visualization.type === 'bar') {
+                            displayIPLGraph(data.response.visualization.data);
+                            downloadBtn = createDownloadButton('chartIPL', 'ipl_top_batsmen.png');
+                        } else if (data.response.visualization.type === 'line') {
+                            displayWinLossGraph(data.response.visualization.data);
+                            downloadBtn = createDownloadButton('chartWinLoss', 'win_loss_ratio.png');
+                        }
+                        if (downloadBtn) {
+                            botMessage.appendChild(downloadBtn);
+                        }
+                    }
+
+                    // Add Like, Copy, Dislike buttons
+                    addMessageActions(botMessage);
+                });
+            } catch (error) {
+                typingIndicator.style.display = 'none';
+                const botMessage = document.createElement('div');
+                botMessage.classList.add('message', 'bot');
+                const errorMessage = "Sorry, an error occurred. Please try again.";
+                typeMessage(botMessage, errorMessage, () => {
+                    const botTimestamp = document.createElement('div');
+                    botTimestamp.classList.add('message-timestamp');
+                    botTimestamp.textContent = new Date().toLocaleTimeString();
+                    botMessage.appendChild(botTimestamp);
+                    speakResponse(errorMessage, 'en');
+                    addMessageActions(botMessage);
+                });
+                chatbox.appendChild(botMessage);
+            }
+
+            document.getElementById('userInput').value = '';
+            chatbox.scrollTop = chatbox.scrollHeight;
+        }
+
+        // Function to create download button
+        function createDownloadButton(canvasId, filename) {
+            const downloadBtn = document.createElement('button');
+            downloadBtn.classList.add('download-btn');
+            downloadBtn.textContent = 'Download Chart';
+            downloadBtn.onclick = () => downloadChart(canvasId, filename);
+            return downloadBtn;
+        }
+
+        // Function to add like, copy, and dislike buttons
+        function addMessageActions(message) {
+            const actions = document.createElement('div');
+            actions.classList.add('actions');
+
+            const likeButton = document.createElement('button');
+            likeButton.innerHTML = '<img src="like.png" alt="Like">';
+            likeButton.onclick = () => alert('Liked!');
+            
+            const copyButton = document.createElement('button');
+            copyButton.innerHTML = '<img src="copy.png" alt="Copy">';
+            copyButton.onclick = () => navigator.clipboard.writeText(message.textContent);
+
+            const dislikeButton = document.createElement('button');
+            dislikeButton.innerHTML = '<img src="dislike.png" alt="Dislike">';
+            dislikeButton.onclick = () => alert('Disliked!');
+            
+            actions.appendChild(likeButton);
+            actions.appendChild(copyButton);
+            actions.appendChild(dislikeButton);
+
+            message.appendChild(actions);
+        }
+
+        // Display IPL Top Batsmen Graph
+        function displayIPLGraph(data) {
+            const ctx = document.getElementById('chartIPL').getContext('2d');
+            document.getElementById('chartIPL').style.display = 'block';
+
+            charts['chartIPL'] = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: data.labels,
+                    datasets: [{
+                        label: 'Runs Scored in IPL',
+                        data: data.values,
+                        backgroundColor: ['#0078ff', '#33cc33', '#ffcc00'],
+                        borderColor: ['#0056b3', '#28a745', '#e6a900'],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: { display: true, text: 'Runs' }
+                        },
+                        x: {
+                            title: { display: true, text: 'Players' }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Display Win-Loss Ratio Graph
+        function displayWinLossGraph(data) {
+            const ctx = document.getElementById('chartWinLoss').getContext('2d');
+            document.getElementById('chartWinLoss').style.display = 'block';
+
+            charts['chartWinLoss'] = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.labels,
+                    datasets: [
+                        {
+                            label: `${data.labels[0]} Win-Loss Ratio`,
+                            data: data.team1,
+                            fill: false,
+                            borderColor: '#ff5733',
+                            tension: 0.1
+                        },
+                        ...(data.team2.length ? [{
+                            label: `${data.labels[1] || 'Opponent'} Win-Loss Ratio`,
+                            data: data.team2,
+                            fill: false,
+                            borderColor: '#33ccff',
+                            tension: 0.1
+                        }] : [])
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: { display: true, text: 'Win-Loss Ratio' }
+                        },
+                        x: {
+                            title: { display: true, text: 'Years' }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Initialize everything
+        initializeSpeechRecognition();
+    </script>
+</body>
+</html>
