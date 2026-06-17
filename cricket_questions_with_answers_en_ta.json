@@ -1,0 +1,93 @@
+[
+  {
+    "category": "complex",
+    "question_en": "Which team has the best win-loss ratio in away matches over the past 5 years?",
+    "question_ta": "தமிழில்: Which team has the best win-loss ratio in away matches over the past 5 years?",
+    "answer_en": "Over the past five years, the cricket team with the best away win-loss ratio is South Africa. They have won 9 out of 14 away Test matches, resulting in a win-loss ratio of approximately 2.0",
+    "answer_ta": "கடந்த ஐந்து ஆண்டுகளில், சிறந்த வெளிநாட்டு வெற்றி-தோல்வி விகிதம் கொண்ட கிரிக்கெட் அணி தென் ஆப்பிரிக்கா ஆகும். அவர்கள் 14 வெளிநாட்டு டெஸ்ட் போட்டிகளில் 9 வெற்றிகளைப் பெற்றுள்ளனர், இது சுமார் 2.0 என்ற விகிதத்தை உருவாக்குகிறது "
+  },
+  {
+    "category": "simple",
+    "question_en": "Who is known as the God of Cricket?",
+    "question_ta": "தமிழில்: கடந்த உலகக் கோப்பை இறுதிப்போட்டி எங்கு நடைபெற்றது?",
+    "answer_en": "The player widely regarded as the 'God of Cricket' is Sachin Tendulkar. He is one of the most legendary and revered figures in the history of cricket, known for his exceptional batting skills, records, and contributions to the sport. Tendulkar is celebrated for being the highest run-scorer in both Test and One-Day International (ODI) cricket and is the only player to have scored one hundred international centuries.",
+    "answer_ta": "கிரிக்கெட்டின் கடவுள் என்று அழைக்கப்படுபவர் சச்சின் டெண்டுல்கர் ஆவார். இவர் கிரிக்கெட்டின் வரலாற்றில் மிகப் பெரும் புகழ்பெற்ற வீரர் ஆவார், சிறந்த பேட்டிங் திறன்கள், சாதனைகள் மற்றும் விளையாட்டுக்கான அவரின் அர்ப்பணிப்புகளுக்காக அறியப்படுகிறார். டெண்டுல்கர், டெஸ்ட் மற்றும் ஒருநாள் சர்வதேச (ஒடிஐ) கிரிக்கெட்டில் அதிகமான ரன் ஸ்கோரர் ஆக இருக்கிறார், மேலும் சர்வதேசப் போட்டிகளில் நூறு செஞ்சுரிகளைக் கோரிய ஒரே வீரராக உள்ளார்."
+  },
+  {
+    "category": "simple",
+    "question_en": "Where was the last World Cup final held?",
+    "question_ta": "தமிழில்: Where was the last World Cup final held?",
+    "answer_en": "The last Cricket World Cup final was held at the Narendra Modi Stadium in Ahmedabad, India, on November 19, 2023.",
+    "answer_ta": "கடந்த உலகக் கோப்பை கிரிக்கெட் இறுதிப்போட்டி 2023 நவம்பர் 19-ஆம் தேதி இந்தியாவின் அகமதாபாதில் உள்ள நரேந்திர மோடி ஸ்டேடியத்தில் நடைபெற்றது."
+  },
+  {
+    "category": "simple",
+    "question_en": "What is the highest individual score in ODIs?",
+    "question_ta": "தமிழில்: ஒருநாள் antaraashṭriya போட்டிகளில் மிக அதிகமாக ஒரே ODI ஆட்டக்காரர் எடுத்த ரன்கள் எவ்வளவு?",
+    "answer_en": "The highest individual score in One Day Internationals (ODIs) is 264 runs by Rohit Sharma of India against Sri Lanka, made on November 13, 2014, at Eden Gardens, Kolkata.",
+    "answer_ta": "ஒருநாள் antaraashṭriya போட்டிகளில் மிக உயர்ந்த தனிப்பட்ட ரன் சாதனை 264 ரன்கள். இந்த சாதனையை இந்தியாவின் ரோகித் சர்மா 2014 நவம்பர் 13-ஆம் தேதி கொல்கத்தாவின் ஈடன் கார்டன்ஸில் இலங்கைக்கு எதிராக செய்தார்."
+  },
+  {
+    "category": "complex",
+    "question_en": "Which team has the best win-loss ratio in away matches over the past 5 years?",
+    "question_ta": "தமிழில்: கடந்த 5 ஆண்டுகளில் வெளிநாட்டு (அவெ) போட்டிகளில் சிறந்த வெற்றி-தோல்வி விகிதம் கொண்ட அணி எது?",
+    "answer_en": "In One Day Internationals (ODIs), South Africa holds the best away win-loss ratio over the past five years. They played 33 away matches, winning 20 and losing 11, resulting in a win-loss ratio of 1.81.",
+    "answer_ta": "ஒருநாள் போட்டிகளில் கடந்த 5 ஆண்டுகளில் வெளிநாட்டு (அவெ) போட்டிகளில் சிறந்த வெற்றி-தோல்வி விகிதம் கொண்ட அணி தென் ஆப்பிரிக்கா. அவர்கள் 33 வெளிநாட்டு போட்டிகளில் 20 வெற்றிகளும் 11 தோல்விகளும் பெற்றுள்ளனர், இதன் மூலம் வெற்றி-தோல்வி விகிதம் 1.81 ஆகும்."
+  },
+  {
+    "category": "static",
+    "question_en": "Who scored the first double century in ODIs?",
+    "question_ta": "தமிழில்: ஒருநாள் antaraashṭriya (ODI) போட்டிகளில் முதல் இரட்டை சதம் (Double Century) எடுத்தவர் யார்?",
+    "answer_en": "The first double century in One Day Internationals (ODIs) was scored by Sachin Tendulkar of India. He made 200 runs* against South Africa on February 24, 2010, at Gwalior.",
+    "answer_ta": "ஒருநாள் antaraashṭriya (ODI) போட்டிகளில் முதல் இரட்டை சதம் (200 ரன்கள்) எடுத்தவர் இந்தியாவின் சச்சின் டெண்டுல்கர். அவர் 2010 பெப்ரவரி 24 அன்று தென் ஆப்பிரிக்காவுக்கு எதிராக கவாலியர் மைதானத்தில் அணியுடன் நிராகரிக்கப்படாமல் (200)* இந்த சாதனையை பெற்றார்."
+  },
+  {
+    "category": "summary",
+    "question_en": "Summarize the performance of Australia in the 2023 ODI World Cup.",
+    "question_ta": "தமிழில்: 2023 ஒடியாய் உலகக் கோப்பையில் ஆஸ்திரேலியாவின் செயல்திறனை சுருக்கமாக விவரிக்கவும்.​",
+    "answer_en": "In the 2023 ICC Cricket World Cup, Australia showcased a remarkable performance, culminating in their sixth ODI World Cup title. After a challenging start, they gained momentum and secured a spot in the final. In the final held at Narendra Modi Stadium, Ahmedabad, Australia faced India. India batted first and posted a total of 240 runs. Australia chased down the target in 43 overs, losing only 4 wickets. Travis Head was instrumental in the victory, scoring a brilliant 137 runs off 120 balls, earning him the Player of the Match award. This victory marked Australia's sixth ODI World Cup triumph, reinforcing their dominance in the format.",
+    "answer_ta": "2023 ஐசிசி ஒடியாய் உலகக் கோப்பையில், ஆஸ்திரேலியா சிறப்பான செயல்திறனை வெளிப்படுத்தி, தங்களது ஆறாவது ஒடியாய் உலகக் கோப்பையை வென்றது. தொடக்கத்தில் சவால்களை எதிர்கொண்டபோதிலும், அவர்கள் பின்னர் நல்ல முன்னேற்றத்தை காண்பித்து, இறுதிப்போட்டிக்கு தகுதி பெற்றனர். அகமதாபாதில் உள்ள நரேந்திர மோடி ஸ்டேடியத்தில் நடைபெற்ற இறுதிப்போட்டியில், இந்தியாவை எதிர்கொண்ட ஆஸ்திரேலியா, இந்தியா முதலில் 240 ரன்கள் எடுத்ததை தொடர்ந்து, 43 ஓவர்களில் 4 விக்கெட்டுகளை இழந்து இலக்கை எட்டியது. டிராவிஸ் ஹெட் 120 பந்துகளில் 137 ரன்கள் குவித்து, ஆட்டத்தின் சிறந்த வீரராக தேர்ந்தெடுக்கப்பட்டார். இந்த வெற்றியுடன், ஆஸ்திரேலியா தங்களது ஆறாவது ஒடியாய் உலகக் கோப்பையை வென்று, இந்த வடிவத்தில் தங்களது ஆதிக்கத்தை மீண்டும் நிரூபித்தது."
+  },
+  {
+    "category": "prediction",
+    "question_en": "Who is likely to win the next T20 World Cup based on current form?",
+    "question_ta": "தமிழில்: தற்போதைய செயல்திறனைப் பொருத்து, அடுத்த டி20 உலகக் கோப்பையை வெல்லக்கூடிய அணி எது?​",
+    "answer_en": "Based on current form and expert predictions, India is considered the frontrunner to win the next T20 World Cup. Their consistent performance and strong squad depth have positioned them as favorites. Other strong contenders include Australia, England, and South Africa, each showcasing impressive form in recent matches.​",
+    "answer_ta": "தற்போதைய செயல்திறனையும், நிபுணர்களின் கணிப்புகளையும் பொருத்து, அடுத்த டி20 உலகக் கோப்பையை வெல்லக்கூடிய முன்னணி அணி இந்தியா எனக் கருதப்படுகிறது. அவர்களின் நிலையான செயல்திறன் மற்றும் வலுவான அணியமைப்பு, அவர்களை முன்னணியில் வைத்துள்ளது. மற்றும், ஆஸ்திரேலியா, இங்கிலாந்து, மற்றும் தென் ஆப்பிரிக்கா ஆகிய அணிகளும் சமீபத்திய போட்டிகளில் சிறந்த செயல்திறனை வெளிப்படுத்தி, வலுவான போட்டியாளர்களாக உள்ளனர்."
+  },
+  {
+    "category": "prediction",
+    "question_en": "Predict the top 3 run scorers in the upcoming IPL season.",
+    "question_ta": "தமிழில்: வரும் IPL 2025 சீசனில் அதிக ரன்கள் குவிப்பார்கள் என எதிர்பார்க்கப்படும் முன்னணி 3 பேட்ஸ்மேன்கள் யார்?​",
+    "answer_en": "Based on current form and early performances in the IPL 2025 season, the top 3 predicted run-scorers are: 1. Nicholas Pooran (Lucknow Super Giants) - With 288 runs, including an unbeaten 87 off 36 balls, Pooran leads the run charts. 2.Sai Sudharsan (Gujarat Titans) - Scoring 273 runs in five matches, Sudharsan's consistent performance has been pivotal for Gujarat's success. 3. Mitchell Marsh (Lucknow Super Giants) - Accumulating 265 runs, including four half-centuries in five innings, Marsh has been instrumental in Lucknow's strong start.",
+    "answer_ta": "தற்போதைய செயல்திறனையும், IPL 2025 தொடக்க ஆட்டங்களையும் பொருத்து, அதிக ரன்கள் குவிப்பார்கள் என எதிர்பார்க்கப்படும் முன்னணி 3 பேட்ஸ்மேன்கள்:​ 1. நிக்கோலஸ் பூரன் (லக்னோ சூப்பர் ஜெயன்ட்ஸ்) - தற்போது 288 ரன்களுடன் முன்னிலையில் உள்ளார், இதில் 36 பந்துகளில் 87 ரன்கள் அடித்தார். 2. சாய் சுதர்சன் (குஜராத் டைட்டன்ஸ்) - ஐந்து போட்டிகளில் 273 ரன்கள் எடுத்துள்ளார், அவரது நிலையான செயல்திறன் குஜராத்தின் வெற்றிக்கு முக்கிய காரணமாக உள்ளது. 3. மிட்செல் மார்ஷ் (லக்னோ சூப்பர் ஜெயன்ட்ஸ்) - 265 ரன்கள் குவித்துள்ளார், இதில் ஐந்து இன்னிங்ஸ்களில் நான்கு அரைசதங்கள் அடித்துள்ளார்."
+  },
+  {
+    "category": "dynamic",
+    "question_en": "What is the win percentage of Australia in 2023?",
+    "question_ta": "தமிழில்: What is the win percentage of Australia in 2023?",
+    "answer_en": "In 2023, the Australian cricket team had a notable year across formats. They won the ICC Men's Cricket World Cup, defeating India in the final on November 19, 2023, to claim their record-extending sixth title . However, specific win percentage statistics for Australia in 2023 are not readily available in the provided sources.​",
+    "answer_ta": "2023 ஆம் ஆண்டில், ஆஸ்திரேலிய கிரிக்கெட் அணி பல்வேறு போட்டிகளில் சிறப்பாக செயல்பட்டது. அவர்கள் 2023 ஆம் ஆண்டின் ஐ.சி.சி. ஆண்கள் கிரிக்கெட் உலக கோப்பையை வென்றனர், நவம்பர் 19, 2023 அன்று இந்தியாவை இறுதியில் வீழ்த்தி, தங்கள் சாதாரணமாக ஆறாவது கோப்பையை வென்றனர் . எனினும், 2023 ஆம் ஆண்டில் ஆஸ்திரேலியாவின் வெற்றி சதவீதம் பற்றிய குறிப்பிட்ட புள்ளிவிபரங்கள் வழங்கப்பட்ட ஆதாரங்களில் கிடைக்கவில்லை"
+  },  
+  {
+    "category": "visualization",
+    "question_en": "Plot a comparison of the win-loss ratio of India vs Australia over the past 5 years.",
+    "question_ta": "தமிழில்: கடந்த 5 ஆண்டுகளுக்கு இந்தியா மற்றும் ஆஸ்திரேலியாவின் வெற்றி-தோல்வி விகிதங்களை ஒப்பிடும் வரைபடம் வரைபடமாக உருவாக்குங்கள்.",
+    "answer_en": "For India, in 2018, they had 9 wins and 4 losses, with a win-loss ratio of 2.25. The following year, in 2019, their performance improved slightly, with 7 wins and 3 losses, resulting in a win-loss ratio of 2.33. In 2020, they won 8 matches and lost 4, maintaining a ratio of 2.00. Their best performance came in 2021, where they won 10 matches and lost only 2, achieving a remarkable win-loss ratio of 5.00. In 2022, their performance dipped a little, with 6 wins and 3 losses, leading to a ratio of 2.00. In 2023, they returned to form, winning 10 matches and losing 5, keeping the ratio at 2.00. For Australia, in 2018, they had a win-loss ratio of 1.20 with 6 wins and 5 losses. In 2019, they performed better, securing 7 wins and 4 losses, resulting in a ratio of 1.75. The following year, in 2020, they improved further with 7 wins and 3 losses, resulting in a 2.33 ratio. In 2021, they had 8 wins and 3 losses, with a win-loss ratio of 2.67. However, in 2022, their form dipped slightly, with 5 wins and 4 losses, and a win-loss ratio of 1.25. In 2023, they had a balanced performance with 6 wins and 4 losses, yielding a ratio of 1.50.",
+    "answer_ta": "இந்தியாவுக்கு, 2018-ல், அவர்கள் 9 வெற்றிகள் மற்றும் 4 தோல்விகள் பெற்று, 2.25 என்ற வெற்றி-தோல்வி விகிதத்தை கொண்டனர். அடுத்த ஆண்டு, 2019-ல், அவர்கள் சிறிது மேம்பட்டனர், 7 வெற்றிகள் மற்றும் 3 தோல்விகளுடன் 2.33 என்ற வெற்றி-தோல்வி விகிதத்தை பெற்றனர். 2020-ல், அவர்கள் 8 வெற்றிகள் மற்றும் 4 தோல்விகள் பெற்றனர், இது 2.00 என்ற விகிதத்தை உருவாக்கியது. 2021-ல், அவர்கள் மிக சிறப்பாக செயல்பட்டு, 10 வெற்றிகள் மற்றும் 2 தோல்விகளைப் பெற்றனர், இது 5.00 என்ற வெற்றி-தோல்வி விகிதத்தை பெற்றது. 2022-ல், அவர்களது செயல்திறன் சிறிது குறைந்தது, 6 வெற்றிகள் மற்றும் 3 தோல்விகள், இது 2.00 என்ற விகிதத்தை உருவாக்கியது. 2023-ல், அவர்கள் மறு உயர் நிலையை அடைந்து, 10 வெற்றிகள் மற்றும் 5 தோல்விகள் பெற்றனர், இதனால் 2.00 என்ற விகிதத்தை அடைந்தனர். ஆஸ்திரேலியாவுக்கு, 2018-ல், அவர்கள் 6 வெற்றிகள் மற்றும் 5 தோல்விகளுடன் 1.20 என்ற வெற்றி-தோல்வி விகிதத்தை கொண்டனர். 2019-ல், அவர்கள் சிறிது மேம்பட்டனர், 7 வெற்றிகள் மற்றும் 4 தோல்விகளுடன் 1.75 என்ற விகிதத்தை பெற்றனர். 2020-ல், அவர்கள் மேலும் மேம்பட்டனர், 7 வெற்றிகள் மற்றும் 3 தோல்விகளுடன் 2.33 என்ற விகிதத்தை பெற்றனர். 2021-ல், அவர்கள் 8 வெற்றிகள் மற்றும் 3 தோல்விகள் பெற்று, 2.67 என்ற விகிதத்தை கொண்டனர். ஆனால், 2022-ல், அவர்களது செயல்திறன் சிறிது குறைந்தது, 5 வெற்றிகள் மற்றும் 4 தோல்விகள், இது 1.25 என்ற விகிதத்தை உருவாக்கியது. 2023-ல், அவர்கள் சமநிலை நிலை மீண்டும் அடைந்தனர், 6 வெற்றிகள் மற்றும் 4 தோல்விகள், இது 1.50 என்ற விகிதத்தை பெற்றது."
+  },
+  {
+    "category": "dynamic",
+    "question_en": "Who scored the most runs in the IPL 2014 season?",
+    "question_ta": "தமிழில்: IPL 2014 சீசனில் அதிகமான ரன்கள் எடுத்தவர் யார்?",
+    "answer_en": "The player who scored the most runs in the IPL 2014 season was Robin Uthappa. He accumulated 660 runs in 16 matches for Kolkata Knight Riders (KKR) at an average of 73.33 and a strike rate of 137.78.",
+    "answer_ta": "IPL 2014 சீசனில் அதிகமான ரன்கள் எடுத்தவர் ரோபின் உத்தப்பா ஆவார். அவர் கொல்கத்தா நைட் ரைடர்ஸ் (KKR) அணியுடன் 16 போட்டிகளில் 660 ரன்கள் எடுத்தார். அவரது சராசரி 73.33 மற்றும் ஸ்டிரைக் ரேட் 137.78 ஆகும்."
+  },
+  {
+    "category": "visualization",
+    "question_en": "Plot a graph showing the total runs scored by top batsmen in IPL 2025 season.",
+    "question_ta": "தமிழில்: IPL 2025 சீசனில் முன்னணி பேட்ஸ்மேன்கள் அளித்த மொத்த ரன்களை காட்டும் ஒரு வரைபடம் உருவாக்குங்கள்.",
+    "answer_en": "In terms of batting performance, Nicholas Pooran from the Lucknow Super Giants topped the charts with a total of 288 runs, including a notable performance of 87 runs off 36 balls. Sai Sudharsan from the Gujarat Titans followed closely with 273 runs. Mitchell Marsh from the Lucknow Super Giants secured the third spot with 265 runs.",
+    "answer_ta": "இருந்தாலும், முன்னணி பேட்ஸ்மேன்களாக, லக்க்னோ சூப்பர் ஜெயன்ட்ஸ் அணியினர் நிக்கோலஸ் பூரன் 288 ரன்களுடன் முதல் இடத்தை பெற்றுள்ளார், இதில் 36 பந்துகளில் 87 ரன்கள் அடித்தார். குஜராத் டைட்டன்ஸ் அணியினர் சாய் சுதர்சன் 273 ரன்களுடன் இரண்டாவது இடத்தை பெற்றார். மிட்செல் மார்ஷ், லக்க்னோ சூப்பர் ஜெயன்ட்ஸ் அணியினர் 265 ரன்களுடன் மூன்றாவது இடத்தை பெற்றார்."
+  }
+]

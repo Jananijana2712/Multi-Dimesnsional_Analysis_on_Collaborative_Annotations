@@ -1,0 +1,877 @@
+[
+  {
+    "category": "complex",
+    "question_en": "Which team has the best win-loss ratio in away matches over the past 5 years?",
+    "question_ta": "தமிழில்: Which team has the best win-loss ratio in away matches over the past 5 years?"
+  },
+  {
+    "category": "simple",
+    "question_en": "Who is known as the God of Cricket?",
+    "question_ta": "தமிழில்: Who is known as the God of Cricket?"
+  },
+  {
+    "category": "simple",
+    "question_en": "Where was the last World Cup final held?",
+    "question_ta": "தமிழில்: Where was the last World Cup final held?"
+  },
+  {
+    "category": "simple",
+    "question_en": "What is the highest individual score in ODIs?",
+    "question_ta": "தமிழில்: What is the highest individual score in ODIs?"
+  },
+  {
+    "category": "complex",
+    "question_en": "Which team has the best win-loss ratio in away matches over the past 5 years?",
+    "question_ta": "தமிழில்: Which team has the best win-loss ratio in away matches over the past 5 years?"
+  },
+  {
+    "category": "static",
+    "question_en": "Who scored the first double century in ODIs?",
+    "question_ta": "தமிழில்: Who scored the first double century in ODIs?"
+  },
+  {
+    "category": "summary",
+    "question_en": "Summarize the performance of Australia in the 2023 ODI World Cup.",
+    "question_ta": "தமிழில்: Summarize the performance of Australia in the 2023 ODI World Cup."
+  },
+  {
+    "category": "static",
+    "question_en": "Who scored the first double century in ODIs?",
+    "question_ta": "தமிழில்: Who scored the first double century in ODIs?"
+  },
+  {
+    "category": "complex",
+    "question_en": "Which team has the best win-loss ratio in away matches over the past 5 years?",
+    "question_ta": "தமிழில்: Which team has the best win-loss ratio in away matches over the past 5 years?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Who is likely to win the next T20 World Cup based on current form?",
+    "question_ta": "தமிழில்: Who is likely to win the next T20 World Cup based on current form?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Predict the top 3 run scorers in the upcoming IPL season.",
+    "question_ta": "தமிழில்: Predict the top 3 run scorers in the upcoming IPL season."
+  },
+  {
+    "category": "dynamic",
+    "question_en": "What is the win percentage of Australia in 2023?",
+    "question_ta": "தமிழில்: What is the win percentage of Australia in 2023?"
+  },
+  {
+    "category": "simple",
+    "question_en": "Where was the last World Cup final held?",
+    "question_ta": "தமிழில்: Where was the last World Cup final held?"
+  },
+  {
+    "category": "complex",
+    "question_en": "How has Virat Kohli's performance evolved in the last three ICC tournaments?",
+    "question_ta": "தமிழில்: How has Virat Kohli's performance evolved in the last three ICC tournaments?"
+  },
+  {
+    "category": "dynamic",
+    "question_en": "Which bowler took the most wickets in the last T20 World Cup?",
+    "question_ta": "தமிழில்: Which bowler took the most wickets in the last T20 World Cup?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Plot a timeline of India vs Australia match outcomes over the past decade.",
+    "question_ta": "தமிழில்: Plot a timeline of India vs Australia match outcomes over the past decade."
+  },
+  {
+    "category": "dynamic",
+    "question_en": "Who scored the most runs in the IPL 2014 season?",
+    "question_ta": "தமிழில்: Who scored the most runs in the IPL 2014 season?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Display a bar chart comparing the top 5 run scorers in IPL 2023.",
+    "question_ta": "தமிழில்: Display a bar chart comparing the top 5 run scorers in IPL 2023."
+  },
+  {
+    "category": "summary",
+    "question_en": "Provide a match summary of the last Test match played at Lord’s.",
+    "question_ta": "தமிழில்: Provide a match summary of the last Test match played at Lord’s."
+  },
+  {
+    "category": "complex",
+    "question_en": "What is the impact of pitch conditions on spin bowlers in Indian stadiums?",
+    "question_ta": "தமிழில்: What is the impact of pitch conditions on spin bowlers in Indian stadiums?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Create a pie chart of the win distribution by country in the last T20 World Cup.",
+    "question_ta": "தமிழில்: Create a pie chart of the win distribution by country in the last T20 World Cup."
+  },
+  {
+    "category": "simple",
+    "question_en": "Who is known as the God of Cricket?",
+    "question_ta": "தமிழில்: Who is known as the God of Cricket?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Show a graph of Virat Kohli’s yearly run tally from 2015 to 2023.",
+    "question_ta": "தமிழில்: Show a graph of Virat Kohli’s yearly run tally from 2015 to 2023."
+  },
+  {
+    "category": "summary",
+    "question_en": "Summarize the India vs Pakistan match in the 2022 Asia Cup.",
+    "question_ta": "தமிழில்: Summarize the India vs Pakistan match in the 2022 Asia Cup."
+  },
+  {
+    "category": "static",
+    "question_en": "Which bowler has the most hat-tricks in international cricket?",
+    "question_ta": "தமிழில்: Which bowler has the most hat-tricks in international cricket?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Predict the top 3 run scorers in the upcoming IPL season.",
+    "question_ta": "தமிழில்: Predict the top 3 run scorers in the upcoming IPL season."
+  },
+  {
+    "category": "static",
+    "question_en": "Who won the 2011 Cricket World Cup?",
+    "question_ta": "தமிழில்: Who won the 2011 Cricket World Cup?"
+  },
+  {
+    "category": "complex",
+    "question_en": "Compare the batting averages of Rohit Sharma and Babar Azam in T20s since 2020.",
+    "question_ta": "தமிழில்: Compare the batting averages of Rohit Sharma and Babar Azam in T20s since 2020."
+  },
+  {
+    "category": "simple",
+    "question_en": "Which country does Rashid Khan play for?",
+    "question_ta": "தமிழில்: Which country does Rashid Khan play for?"
+  },
+  {
+    "category": "simple",
+    "question_en": "Which country does Rashid Khan play for?",
+    "question_ta": "தமிழில்: Which country does Rashid Khan play for?"
+  },
+  {
+    "category": "summary",
+    "question_en": "Provide a match summary of the last Test match played at Lord’s.",
+    "question_ta": "தமிழில்: Provide a match summary of the last Test match played at Lord’s."
+  },
+  {
+    "category": "visualization",
+    "question_en": "Show a graph of Virat Kohli’s yearly run tally from 2015 to 2023.",
+    "question_ta": "தமிழில்: Show a graph of Virat Kohli’s yearly run tally from 2015 to 2023."
+  },
+  {
+    "category": "summary",
+    "question_en": "Summarize the India vs Pakistan match in the 2022 Asia Cup.",
+    "question_ta": "தமிழில்: Summarize the India vs Pakistan match in the 2022 Asia Cup."
+  },
+  {
+    "category": "simple",
+    "question_en": "Who is known as the God of Cricket?",
+    "question_ta": "தமிழில்: Who is known as the God of Cricket?"
+  },
+  {
+    "category": "complex",
+    "question_en": "How has Virat Kohli's performance evolved in the last three ICC tournaments?",
+    "question_ta": "தமிழில்: How has Virat Kohli's performance evolved in the last three ICC tournaments?"
+  },
+  {
+    "category": "summary",
+    "question_en": "Summarize the performance of Australia in the 2023 ODI World Cup.",
+    "question_ta": "தமிழில்: Summarize the performance of Australia in the 2023 ODI World Cup."
+  },
+  {
+    "category": "static",
+    "question_en": "Who won the 2011 Cricket World Cup?",
+    "question_ta": "தமிழில்: Who won the 2011 Cricket World Cup?"
+  },
+  {
+    "category": "simple",
+    "question_en": "Who is known as the God of Cricket?",
+    "question_ta": "தமிழில்: Who is known as the God of Cricket?"
+  },
+  {
+    "category": "summary",
+    "question_en": "Give a summary of the 2023 IPL Final between CSK and GT.",
+    "question_ta": "தமிழில்: Give a summary of the 2023 IPL Final between CSK and GT."
+  },
+  {
+    "category": "complex",
+    "question_en": "How has the performance of the Indian team changed after the inclusion of young players?",
+    "question_ta": "தமிழில்: How has the performance of the Indian team changed after the inclusion of young players?"
+  },
+  {
+    "category": "dynamic",
+    "question_en": "How many centuries has Virat Kohli scored in 2021?",
+    "question_ta": "தமிழில்: How many centuries has Virat Kohli scored in 2021?"
+  },
+  {
+    "category": "dynamic",
+    "question_en": "Which bowler took the most wickets in the last T20 World Cup?",
+    "question_ta": "தமிழில்: Which bowler took the most wickets in the last T20 World Cup?"
+  },
+  {
+    "category": "dynamic",
+    "question_en": "Who scored the most runs in the IPL 2007 season?",
+    "question_ta": "தமிழில்: Who scored the most runs in the IPL 2007 season?"
+  },
+  {
+    "category": "complex",
+    "question_en": "How has the performance of the Indian team changed after the inclusion of young players?",
+    "question_ta": "தமிழில்: How has the performance of the Indian team changed after the inclusion of young players?"
+  },
+  {
+    "category": "summary",
+    "question_en": "What were the highlights of the 2019 World Cup final?",
+    "question_ta": "தமிழில்: What were the highlights of the 2019 World Cup final?"
+  },
+  {
+    "category": "complex",
+    "question_en": "What is the impact of pitch conditions on spin bowlers in Indian stadiums?",
+    "question_ta": "தமிழில்: What is the impact of pitch conditions on spin bowlers in Indian stadiums?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Display a bar chart comparing the top 5 run scorers in IPL 2023.",
+    "question_ta": "தமிழில்: Display a bar chart comparing the top 5 run scorers in IPL 2023."
+  },
+  {
+    "category": "prediction",
+    "question_en": "Who is likely to win the next T20 World Cup based on current form?",
+    "question_ta": "தமிழில்: Who is likely to win the next T20 World Cup based on current form?"
+  },
+  {
+    "category": "complex",
+    "question_en": "How has Virat Kohli's performance evolved in the last three ICC tournaments?",
+    "question_ta": "தமிழில்: How has Virat Kohli's performance evolved in the last three ICC tournaments?"
+  },
+  {
+    "category": "complex",
+    "question_en": "What is the impact of pitch conditions on spin bowlers in Indian stadiums?",
+    "question_ta": "தமிழில்: What is the impact of pitch conditions on spin bowlers in Indian stadiums?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Display a bar chart comparing the top 5 run scorers in IPL 2023.",
+    "question_ta": "தமிழில்: Display a bar chart comparing the top 5 run scorers in IPL 2023."
+  },
+  {
+    "category": "static",
+    "question_en": "Which bowler has the most hat-tricks in international cricket?",
+    "question_ta": "தமிழில்: Which bowler has the most hat-tricks in international cricket?"
+  },
+  {
+    "category": "complex",
+    "question_en": "Which team has the best win-loss ratio in away matches over the past 5 years?",
+    "question_ta": "தமிழில்: Which team has the best win-loss ratio in away matches over the past 5 years?"
+  },
+  {
+    "category": "static",
+    "question_en": "Which bowler has the most hat-tricks in international cricket?",
+    "question_ta": "தமிழில்: Which bowler has the most hat-tricks in international cricket?"
+  },
+  {
+    "category": "static",
+    "question_en": "Who won the 2011 Cricket World Cup?",
+    "question_ta": "தமிழில்: Who won the 2011 Cricket World Cup?"
+  },
+  {
+    "category": "simple",
+    "question_en": "Where was the last World Cup final held?",
+    "question_ta": "தமிழில்: Where was the last World Cup final held?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Based on past data, will the toss impact the match outcome in Wankhede Stadium?",
+    "question_ta": "தமிழில்: Based on past data, will the toss impact the match outcome in Wankhede Stadium?"
+  },
+  {
+    "category": "simple",
+    "question_en": "Who is the captain of India?",
+    "question_ta": "தமிழில்: Who is the captain of India?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Plot a timeline of India vs Australia match outcomes over the past decade.",
+    "question_ta": "தமிழில்: Plot a timeline of India vs Australia match outcomes over the past decade."
+  },
+  {
+    "category": "visualization",
+    "question_en": "Create a pie chart of the win distribution by country in the last T20 World Cup.",
+    "question_ta": "தமிழில்: Create a pie chart of the win distribution by country in the last T20 World Cup."
+  },
+  {
+    "category": "dynamic",
+    "question_en": "What is the win percentage of England in 2023?",
+    "question_ta": "தமிழில்: What is the win percentage of England in 2023?"
+  },
+  {
+    "category": "dynamic",
+    "question_en": "Who scored the most runs in the IPL 2014 season?",
+    "question_ta": "தமிழில்: Who scored the most runs in the IPL 2014 season?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Which team has the highest chance of reaching the World Cup finals?",
+    "question_ta": "தமிழில்: Which team has the highest chance of reaching the World Cup finals?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Which team has the highest chance of reaching the World Cup finals?",
+    "question_ta": "தமிழில்: Which team has the highest chance of reaching the World Cup finals?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Visualize the dismissal patterns of MS Dhoni in ODIs.",
+    "question_ta": "தமிழில்: Visualize the dismissal patterns of MS Dhoni in ODIs."
+  },
+  {
+    "category": "dynamic",
+    "question_en": "What is the win percentage of Australia in 2024?",
+    "question_ta": "தமிழில்: What is the win percentage of Australia in 2024?"
+  },
+  {
+    "category": "simple",
+    "question_en": "Who is the captain of India?",
+    "question_ta": "தமிழில்: Who is the captain of India?"
+  },
+  {
+    "category": "complex",
+    "question_en": "How has the performance of the Indian team changed after the inclusion of young players?",
+    "question_ta": "தமிழில்: How has the performance of the Indian team changed after the inclusion of young players?"
+  },
+  {
+    "category": "dynamic",
+    "question_en": "Who scored the most runs in the IPL 2015 season?",
+    "question_ta": "தமிழில்: Who scored the most runs in the IPL 2015 season?"
+  },
+  {
+    "category": "dynamic",
+    "question_en": "How many centuries has Rohit Sharma scored in 2024?",
+    "question_ta": "தமிழில்: How many centuries has Rohit Sharma scored in 2024?"
+  },
+  {
+    "category": "simple",
+    "question_en": "Where was the last World Cup final held?",
+    "question_ta": "தமிழில்: Where was the last World Cup final held?"
+  },
+  {
+    "category": "complex",
+    "question_en": "What is the impact of pitch conditions on spin bowlers in Indian stadiums?",
+    "question_ta": "தமிழில்: What is the impact of pitch conditions on spin bowlers in Indian stadiums?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Predict the top 3 run scorers in the upcoming IPL season.",
+    "question_ta": "தமிழில்: Predict the top 3 run scorers in the upcoming IPL season."
+  },
+  {
+    "category": "visualization",
+    "question_en": "Show a graph of Virat Kohli’s yearly run tally from 2015 to 2023.",
+    "question_ta": "தமிழில்: Show a graph of Virat Kohli’s yearly run tally from 2015 to 2023."
+  },
+  {
+    "category": "summary",
+    "question_en": "Summarize the performance of Australia in the 2023 ODI World Cup.",
+    "question_ta": "தமிழில்: Summarize the performance of Australia in the 2023 ODI World Cup."
+  },
+  {
+    "category": "visualization",
+    "question_en": "Visualize the dismissal patterns of MS Dhoni in ODIs.",
+    "question_ta": "தமிழில்: Visualize the dismissal patterns of MS Dhoni in ODIs."
+  },
+  {
+    "category": "summary",
+    "question_en": "Give a summary of the 2023 IPL Final between CSK and GT.",
+    "question_ta": "தமிழில்: Give a summary of the 2023 IPL Final between CSK and GT."
+  },
+  {
+    "category": "visualization",
+    "question_en": "Visualize the dismissal patterns of MS Dhoni in ODIs.",
+    "question_ta": "தமிழில்: Visualize the dismissal patterns of MS Dhoni in ODIs."
+  },
+  {
+    "category": "complex",
+    "question_en": "How has Virat Kohli's performance evolved in the last three ICC tournaments?",
+    "question_ta": "தமிழில்: How has Virat Kohli's performance evolved in the last three ICC tournaments?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Display a bar chart comparing the top 5 run scorers in IPL 2023.",
+    "question_ta": "தமிழில்: Display a bar chart comparing the top 5 run scorers in IPL 2023."
+  },
+  {
+    "category": "static",
+    "question_en": "Who is the highest run scorer in Test cricket history?",
+    "question_ta": "தமிழில்: Who is the highest run scorer in Test cricket history?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Who is likely to win the next T20 World Cup based on current form?",
+    "question_ta": "தமிழில்: Who is likely to win the next T20 World Cup based on current form?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Show a graph of Virat Kohli’s yearly run tally from 2015 to 2023.",
+    "question_ta": "தமிழில்: Show a graph of Virat Kohli’s yearly run tally from 2015 to 2023."
+  },
+  {
+    "category": "prediction",
+    "question_en": "Forecast the weather conditions for the India vs England match next week.",
+    "question_ta": "தமிழில்: Forecast the weather conditions for the India vs England match next week."
+  },
+  {
+    "category": "dynamic",
+    "question_en": "Who scored the most runs in the IPL 2024 season?",
+    "question_ta": "தமிழில்: Who scored the most runs in the IPL 2024 season?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Visualize the dismissal patterns of MS Dhoni in ODIs.",
+    "question_ta": "தமிழில்: Visualize the dismissal patterns of MS Dhoni in ODIs."
+  },
+  {
+    "category": "summary",
+    "question_en": "Summarize the India vs Pakistan match in the 2022 Asia Cup.",
+    "question_ta": "தமிழில்: Summarize the India vs Pakistan match in the 2022 Asia Cup."
+  },
+  {
+    "category": "prediction",
+    "question_en": "Forecast the weather conditions for the India vs England match next week.",
+    "question_ta": "தமிழில்: Forecast the weather conditions for the India vs England match next week."
+  },
+  {
+    "category": "simple",
+    "question_en": "Which country does Rashid Khan play for?",
+    "question_ta": "தமிழில்: Which country does Rashid Khan play for?"
+  },
+  {
+    "category": "static",
+    "question_en": "Who scored the first double century in ODIs?",
+    "question_ta": "தமிழில்: Who scored the first double century in ODIs?"
+  },
+  {
+    "category": "complex",
+    "question_en": "How has Virat Kohli's performance evolved in the last three ICC tournaments?",
+    "question_ta": "தமிழில்: How has Virat Kohli's performance evolved in the last three ICC tournaments?"
+  },
+  {
+    "category": "complex",
+    "question_en": "How has the performance of the Indian team changed after the inclusion of young players?",
+    "question_ta": "தமிழில்: How has the performance of the Indian team changed after the inclusion of young players?"
+  },
+  {
+    "category": "summary",
+    "question_en": "What were the highlights of the 2019 World Cup final?",
+    "question_ta": "தமிழில்: What were the highlights of the 2019 World Cup final?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Show a graph of Virat Kohli’s yearly run tally from 2015 to 2023.",
+    "question_ta": "தமிழில்: Show a graph of Virat Kohli’s yearly run tally from 2015 to 2023."
+  },
+  {
+    "category": "complex",
+    "question_en": "Compare the batting averages of Rohit Sharma and Babar Azam in T20s since 2020.",
+    "question_ta": "தமிழில்: Compare the batting averages of Rohit Sharma and Babar Azam in T20s since 2020."
+  },
+  {
+    "category": "static",
+    "question_en": "Which team has the most ICC trophies?",
+    "question_ta": "தமிழில்: Which team has the most ICC trophies?"
+  },
+  {
+    "category": "static",
+    "question_en": "Who is the highest run scorer in Test cricket history?",
+    "question_ta": "தமிழில்: Who is the highest run scorer in Test cricket history?"
+  },
+  {
+    "category": "simple",
+    "question_en": "Where was the last World Cup final held?",
+    "question_ta": "தமிழில்: Where was the last World Cup final held?"
+  },
+  {
+    "category": "dynamic",
+    "question_en": "Which bowler took the most wickets in the last T20 World Cup?",
+    "question_ta": "தமிழில்: Which bowler took the most wickets in the last T20 World Cup?"
+  },
+  {
+    "category": "simple",
+    "question_en": "What is the highest individual score in ODIs?",
+    "question_ta": "தமிழில்: What is the highest individual score in ODIs?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Predict the top 3 run scorers in the upcoming IPL season.",
+    "question_ta": "தமிழில்: Predict the top 3 run scorers in the upcoming IPL season."
+  },
+  {
+    "category": "complex",
+    "question_en": "Compare the batting averages of Rohit Sharma and Babar Azam in T20s since 2020.",
+    "question_ta": "தமிழில்: Compare the batting averages of Rohit Sharma and Babar Azam in T20s since 2020."
+  },
+  {
+    "category": "prediction",
+    "question_en": "Based on past data, will the toss impact the match outcome in Wankhede Stadium?",
+    "question_ta": "தமிழில்: Based on past data, will the toss impact the match outcome in Wankhede Stadium?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Create a pie chart of the win distribution by country in the last T20 World Cup.",
+    "question_ta": "தமிழில்: Create a pie chart of the win distribution by country in the last T20 World Cup."
+  },
+  {
+    "category": "static",
+    "question_en": "Which team has the most ICC trophies?",
+    "question_ta": "தமிழில்: Which team has the most ICC trophies?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Forecast the weather conditions for the India vs England match next week.",
+    "question_ta": "தமிழில்: Forecast the weather conditions for the India vs England match next week."
+  },
+  {
+    "category": "dynamic",
+    "question_en": "Which bowler took the most wickets in the last T20 World Cup?",
+    "question_ta": "தமிழில்: Which bowler took the most wickets in the last T20 World Cup?"
+  },
+  {
+    "category": "static",
+    "question_en": "Who is the highest run scorer in Test cricket history?",
+    "question_ta": "தமிழில்: Who is the highest run scorer in Test cricket history?"
+  },
+  {
+    "category": "static",
+    "question_en": "Who scored the first double century in ODIs?",
+    "question_ta": "தமிழில்: Who scored the first double century in ODIs?"
+  },
+  {
+    "category": "dynamic",
+    "question_en": "Which team is leading the points table in the 2024 IPL season?",
+    "question_ta": "தமிழில்: Which team is leading the points table in the 2024 IPL season?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Plot a timeline of India vs Australia match outcomes over the past decade.",
+    "question_ta": "தமிழில்: Plot a timeline of India vs Australia match outcomes over the past decade."
+  },
+  {
+    "category": "summary",
+    "question_en": "Summarize the performance of Australia in the 2023 ODI World Cup.",
+    "question_ta": "தமிழில்: Summarize the performance of Australia in the 2023 ODI World Cup."
+  },
+  {
+    "category": "dynamic",
+    "question_en": "Which bowler took the most wickets in the last T20 World Cup?",
+    "question_ta": "தமிழில்: Which bowler took the most wickets in the last T20 World Cup?"
+  },
+  {
+    "category": "static",
+    "question_en": "Who is the highest run scorer in Test cricket history?",
+    "question_ta": "தமிழில்: Who is the highest run scorer in Test cricket history?"
+  },
+  {
+    "category": "summary",
+    "question_en": "Give a summary of the 2023 IPL Final between CSK and GT.",
+    "question_ta": "தமிழில்: Give a summary of the 2023 IPL Final between CSK and GT."
+  },
+  {
+    "category": "simple",
+    "question_en": "What is the highest individual score in ODIs?",
+    "question_ta": "தமிழில்: What is the highest individual score in ODIs?"
+  },
+  {
+    "category": "simple",
+    "question_en": "Who is the captain of India?",
+    "question_ta": "தமிழில்: Who is the captain of India?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Create a pie chart of the win distribution by country in the last T20 World Cup.",
+    "question_ta": "தமிழில்: Create a pie chart of the win distribution by country in the last T20 World Cup."
+  },
+  {
+    "category": "simple",
+    "question_en": "What is the highest individual score in ODIs?",
+    "question_ta": "தமிழில்: What is the highest individual score in ODIs?"
+  },
+  {
+    "category": "static",
+    "question_en": "Who scored the first double century in ODIs?",
+    "question_ta": "தமிழில்: Who scored the first double century in ODIs?"
+  },
+  {
+    "category": "complex",
+    "question_en": "Which team has the best win-loss ratio in away matches over the past 5 years?",
+    "question_ta": "தமிழில்: Which team has the best win-loss ratio in away matches over the past 5 years?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Based on past data, will the toss impact the match outcome in Wankhede Stadium?",
+    "question_ta": "தமிழில்: Based on past data, will the toss impact the match outcome in Wankhede Stadium?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Which team has the highest chance of reaching the World Cup finals?",
+    "question_ta": "தமிழில்: Which team has the highest chance of reaching the World Cup finals?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Display a bar chart comparing the top 5 run scorers in IPL 2023.",
+    "question_ta": "தமிழில்: Display a bar chart comparing the top 5 run scorers in IPL 2023."
+  },
+  {
+    "category": "summary",
+    "question_en": "Give a summary of the 2023 IPL Final between CSK and GT.",
+    "question_ta": "தமிழில்: Give a summary of the 2023 IPL Final between CSK and GT."
+  },
+  {
+    "category": "simple",
+    "question_en": "Which country does Rashid Khan play for?",
+    "question_ta": "தமிழில்: Which country does Rashid Khan play for?"
+  },
+  {
+    "category": "dynamic",
+    "question_en": "Which team is leading the points table in the 2023 IPL season?",
+    "question_ta": "தமிழில்: Which team is leading the points table in the 2023 IPL season?"
+  },
+  {
+    "category": "dynamic",
+    "question_en": "How many centuries has David Warner scored in 2021?",
+    "question_ta": "தமிழில்: How many centuries has David Warner scored in 2021?"
+  },
+  {
+    "category": "dynamic",
+    "question_en": "Which team is leading the points table in the 2024 IPL season?",
+    "question_ta": "தமிழில்: Which team is leading the points table in the 2024 IPL season?"
+  },
+  {
+    "category": "summary",
+    "question_en": "Give a summary of the 2023 IPL Final between CSK and GT.",
+    "question_ta": "தமிழில்: Give a summary of the 2023 IPL Final between CSK and GT."
+  },
+  {
+    "category": "static",
+    "question_en": "Which team has the most ICC trophies?",
+    "question_ta": "தமிழில்: Which team has the most ICC trophies?"
+  },
+  {
+    "category": "summary",
+    "question_en": "Provide a match summary of the last Test match played at Lord’s.",
+    "question_ta": "தமிழில்: Provide a match summary of the last Test match played at Lord’s."
+  },
+  {
+    "category": "static",
+    "question_en": "Which bowler has the most hat-tricks in international cricket?",
+    "question_ta": "தமிழில்: Which bowler has the most hat-tricks in international cricket?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Create a pie chart of the win distribution by country in the last T20 World Cup.",
+    "question_ta": "தமிழில்: Create a pie chart of the win distribution by country in the last T20 World Cup."
+  },
+  {
+    "category": "dynamic",
+    "question_en": "What is the win percentage of England in 2022?",
+    "question_ta": "தமிழில்: What is the win percentage of England in 2022?"
+  },
+  {
+    "category": "simple",
+    "question_en": "Who is the captain of India?",
+    "question_ta": "தமிழில்: Who is the captain of India?"
+  },
+  {
+    "category": "simple",
+    "question_en": "Which country does Rashid Khan play for?",
+    "question_ta": "தமிழில்: Which country does Rashid Khan play for?"
+  },
+  {
+    "category": "complex",
+    "question_en": "Compare the batting averages of Rohit Sharma and Babar Azam in T20s since 2020.",
+    "question_ta": "தமிழில்: Compare the batting averages of Rohit Sharma and Babar Azam in T20s since 2020."
+  },
+  {
+    "category": "static",
+    "question_en": "Which team has the most ICC trophies?",
+    "question_ta": "தமிழில்: Which team has the most ICC trophies?"
+  },
+  {
+    "category": "dynamic",
+    "question_en": "Which team is leading the points table in the 2024 IPL season?",
+    "question_ta": "தமிழில்: Which team is leading the points table in the 2024 IPL season?"
+  },
+  {
+    "category": "summary",
+    "question_en": "What were the highlights of the 2019 World Cup final?",
+    "question_ta": "தமிழில்: What were the highlights of the 2019 World Cup final?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Who is likely to win the next T20 World Cup based on current form?",
+    "question_ta": "தமிழில்: Who is likely to win the next T20 World Cup based on current form?"
+  },
+  {
+    "category": "static",
+    "question_en": "Which bowler has the most hat-tricks in international cricket?",
+    "question_ta": "தமிழில்: Which bowler has the most hat-tricks in international cricket?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Predict the top 3 run scorers in the upcoming IPL season.",
+    "question_ta": "தமிழில்: Predict the top 3 run scorers in the upcoming IPL season."
+  },
+  {
+    "category": "prediction",
+    "question_en": "Which team has the highest chance of reaching the World Cup finals?",
+    "question_ta": "தமிழில்: Which team has the highest chance of reaching the World Cup finals?"
+  },
+  {
+    "category": "summary",
+    "question_en": "Summarize the India vs Pakistan match in the 2022 Asia Cup.",
+    "question_ta": "தமிழில்: Summarize the India vs Pakistan match in the 2022 Asia Cup."
+  },
+  {
+    "category": "complex",
+    "question_en": "Compare the batting averages of Rohit Sharma and Babar Azam in T20s since 2020.",
+    "question_ta": "தமிழில்: Compare the batting averages of Rohit Sharma and Babar Azam in T20s since 2020."
+  },
+  {
+    "category": "static",
+    "question_en": "Who is the highest run scorer in Test cricket history?",
+    "question_ta": "தமிழில்: Who is the highest run scorer in Test cricket history?"
+  },
+  {
+    "category": "summary",
+    "question_en": "Summarize the performance of Australia in the 2023 ODI World Cup.",
+    "question_ta": "தமிழில்: Summarize the performance of Australia in the 2023 ODI World Cup."
+  },
+  {
+    "category": "prediction",
+    "question_en": "Based on past data, will the toss impact the match outcome in Wankhede Stadium?",
+    "question_ta": "தமிழில்: Based on past data, will the toss impact the match outcome in Wankhede Stadium?"
+  },
+  {
+    "category": "static",
+    "question_en": "Who won the 2011 Cricket World Cup?",
+    "question_ta": "தமிழில்: Who won the 2011 Cricket World Cup?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Visualize the dismissal patterns of MS Dhoni in ODIs.",
+    "question_ta": "தமிழில்: Visualize the dismissal patterns of MS Dhoni in ODIs."
+  },
+  {
+    "category": "complex",
+    "question_en": "What is the impact of pitch conditions on spin bowlers in Indian stadiums?",
+    "question_ta": "தமிழில்: What is the impact of pitch conditions on spin bowlers in Indian stadiums?"
+  },
+  {
+    "category": "simple",
+    "question_en": "What is the highest individual score in ODIs?",
+    "question_ta": "தமிழில்: What is the highest individual score in ODIs?"
+  },
+  {
+    "category": "summary",
+    "question_en": "What were the highlights of the 2019 World Cup final?",
+    "question_ta": "தமிழில்: What were the highlights of the 2019 World Cup final?"
+  },
+  {
+    "category": "dynamic",
+    "question_en": "How many centuries has KL Rahul scored in 2022?",
+    "question_ta": "தமிழில்: How many centuries has KL Rahul scored in 2022?"
+  },
+  {
+    "category": "dynamic",
+    "question_en": "Which team is leading the points table in the 2023 IPL season?",
+    "question_ta": "தமிழில்: Which team is leading the points table in the 2023 IPL season?"
+  },
+  {
+    "category": "visualization",
+    "question_en": "Plot a timeline of India vs Australia match outcomes over the past decade.",
+    "question_ta": "தமிழில்: Plot a timeline of India vs Australia match outcomes over the past decade."
+  },
+  {
+    "category": "visualization",
+    "question_en": "Plot a timeline of India vs Australia match outcomes over the past decade.",
+    "question_ta": "தமிழில்: Plot a timeline of India vs Australia match outcomes over the past decade."
+  },
+  {
+    "category": "static",
+    "question_en": "Which team has the most ICC trophies?",
+    "question_ta": "தமிழில்: Which team has the most ICC trophies?"
+  },
+  {
+    "category": "complex",
+    "question_en": "How has the performance of the Indian team changed after the inclusion of young players?",
+    "question_ta": "தமிழில்: How has the performance of the Indian team changed after the inclusion of young players?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Forecast the weather conditions for the India vs England match next week.",
+    "question_ta": "தமிழில்: Forecast the weather conditions for the India vs England match next week."
+  },
+  {
+    "category": "dynamic",
+    "question_en": "What is the win percentage of England in 2023?",
+    "question_ta": "தமிழில்: What is the win percentage of England in 2023?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Who is likely to win the next T20 World Cup based on current form?",
+    "question_ta": "தமிழில்: Who is likely to win the next T20 World Cup based on current form?"
+  },
+  {
+    "category": "dynamic",
+    "question_en": "How many centuries has KL Rahul scored in 2023?",
+    "question_ta": "தமிழில்: How many centuries has KL Rahul scored in 2023?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Which team has the highest chance of reaching the World Cup finals?",
+    "question_ta": "தமிழில்: Which team has the highest chance of reaching the World Cup finals?"
+  },
+  {
+    "category": "summary",
+    "question_en": "Provide a match summary of the last Test match played at Lord’s.",
+    "question_ta": "தமிழில்: Provide a match summary of the last Test match played at Lord’s."
+  },
+  {
+    "category": "simple",
+    "question_en": "Who is known as the God of Cricket?",
+    "question_ta": "தமிழில்: Who is known as the God of Cricket?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Based on past data, will the toss impact the match outcome in Wankhede Stadium?",
+    "question_ta": "தமிழில்: Based on past data, will the toss impact the match outcome in Wankhede Stadium?"
+  },
+  {
+    "category": "prediction",
+    "question_en": "Forecast the weather conditions for the India vs England match next week.",
+    "question_ta": "தமிழில்: Forecast the weather conditions for the India vs England match next week."
+  },
+  {
+    "category": "simple",
+    "question_en": "Who is the captain of India?",
+    "question_ta": "தமிழில்: Who is the captain of India?"
+  },
+  {
+    "category": "summary",
+    "question_en": "Provide a match summary of the last Test match played at Lord’s.",
+    "question_ta": "தமிழில்: Provide a match summary of the last Test match played at Lord’s."
+  },
+  {
+    "category": "static",
+    "question_en": "Who won the 2011 Cricket World Cup?",
+    "question_ta": "தமிழில்: Who won the 2011 Cricket World Cup?"
+  },
+  {
+    "category": "summary",
+    "question_en": "What were the highlights of the 2019 World Cup final?",
+    "question_ta": "தமிழில்: What were the highlights of the 2019 World Cup final?"
+  },
+  {
+    "category": "summary",
+    "question_en": "Summarize the India vs Pakistan match in the 2022 Asia Cup.",
+    "question_ta": "தமிழில்: Summarize the India vs Pakistan match in the 2022 Asia Cup."
+  }
+]
